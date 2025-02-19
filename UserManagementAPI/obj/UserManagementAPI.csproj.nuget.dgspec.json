@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\all_project\\vs_code_project\\UserManagementAPI\\UserManagementAPI.csproj": {}
+    "D:\\All_Project\\VS_Code_Project\\UserManagementAPI\\UserManagementAPI.csproj": {}
   },
   "projects": {
-    "D:\\all_project\\vs_code_project\\UserManagementAPI\\UserManagementAPI.csproj": {
+    "D:\\All_Project\\VS_Code_Project\\UserManagementAPI\\UserManagementAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\all_project\\vs_code_project\\UserManagementAPI\\UserManagementAPI.csproj",
+        "projectUniqueName": "D:\\All_Project\\VS_Code_Project\\UserManagementAPI\\UserManagementAPI.csproj",
         "projectName": "UserManagementAPI",
-        "projectPath": "D:\\all_project\\vs_code_project\\UserManagementAPI\\UserManagementAPI.csproj",
+        "projectPath": "D:\\All_Project\\VS_Code_Project\\UserManagementAPI\\UserManagementAPI.csproj",
         "packagesPath": "C:\\Users\\huudu\\.nuget\\packages\\",
-        "outputPath": "D:\\all_project\\vs_code_project\\UserManagementAPI\\obj\\",
+        "outputPath": "D:\\All_Project\\VS_Code_Project\\UserManagementAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -53,6 +53,22 @@
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[9.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.2, )"
             }
           },
           "imports": [
